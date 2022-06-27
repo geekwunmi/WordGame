@@ -32,7 +32,7 @@ class action(scene):
 
                 return action(),False
 
-            elif answer == actionoptions[0].casefold() or answer == actionoptions[1].casefold():
+            elif answer.casefold() == actionoptions[0].casefold() or answer.casefold() == actionoptions[1].casefold():
                 print("You survive the first attack from your rival")
                 print("You see him stagger off balance, what would be your next attack?")
 
@@ -41,7 +41,7 @@ class action(scene):
 
                 answer2 = input("> ")
 
-                if answer2 == actionoptions[0].casefold() or answer2 == actionoptions[1].casefold():
+                if answer2.casefold() == actionoptions[0].casefold() or answer2.casefold() == actionoptions[1].casefold():
                     print("Your rival suddenly regain composure and throws dust into the air")
                     print("You were wise to see through his your rivals feint")
                     print("He makes a large swing that cuts through the dust and leaves himself unbalanced")
