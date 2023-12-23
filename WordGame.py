@@ -113,7 +113,7 @@ class psychological(scene):
             print('He shouts out "You are correct! Join me in EgoDeath!"')
             print("\n ------------------------------------------- \n")
 
-            return romance(),False
+            return romance(),False0
 
         elif answer4.casefold() == psychologicaloptions[3].casefold():
             print("Hardship does not define men; but help them to define themselves")
